@@ -1,10 +1,14 @@
+ 
 let oneNumShots = 1
+
 const oneShots = document.querySelector("#teamone-shoot-button");
 oneShots.addEventListener("click", function Random() {
     console.log ("Team one shot taken");
     document.getElementById("teamone-numshots").innerText +++ oneNumShots;
-    document.getElementById("teamone-numgoals").innerText -= Math.floor(Math.random() * 11);
+    document.getElementById("teamone-numgoals").innerHTML -= Math.floor(Math.random() * 11);
 })
+
+        
 
 
 
